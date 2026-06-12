@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv(
-    r"C:\Users\matiq\OneDrive\Desktop\AI Practical\ai-ml-ds\data.csv",
+    r"D:\CS_6th\AI Practical\3_ai-ml-ds\data.csv",
     encoding="utf-8-sig")
 
 

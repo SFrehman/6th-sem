@@ -3,7 +3,7 @@ from scipy import stats
 import random
 
 df = pd.read_csv(
-    r"C:\Users\matiq\OneDrive\Desktop\AI Practical\ai-ml-ds\dd.csv",
+    r"D:\CS_6th\AI Practical\3_ai-ml-ds\dd.csv",
     encoding="utf-8-sig"
 )
 x = df['area']                                    # x = [random.randint(10, 90) for _ in range(15)]

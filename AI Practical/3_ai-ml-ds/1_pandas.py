@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-df=pd.read_csv("data.csv")  
+df=pd.read_csv(r"D:\CS_6th\AI Practical\3_ai-ml-ds\data.csv")  
 
 # """ read_csv:       to read csv file
 #     read_excel:     to read excel files
