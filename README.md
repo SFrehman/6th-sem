@@ -1,6 +1,5 @@
 <div align="center">
 
-# 🚀 CS_6th
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=BSCS+6th+Semester+Repository;Assignments+%7C+Labs+%7C+Projects;AI+%7C+Web+Engineering+%7C+Compiler+Construction;Semester+Resources+and+Code+Collection" alt="Typing SVG" />
 
