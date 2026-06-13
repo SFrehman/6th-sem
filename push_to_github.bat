@@ -1,15 +1,36 @@
 @echo off
-:: %~dp0 automatically detects the folder where this bat file is running
 cd /d "%~dp0"
 
-echo [1/3] Staging your updated AI files...
-git add .
+echo.
+echo Syncing files to GitHub...
+echo [..........] 0%% Complete
+echo.
 
-echo [2/3] Committing updates...
-git commit -m "Updated AI Practical scripts and datasets"
+:: Step 1
+git add . >nul 2>&1
+cls
+echo Syncing files to GitHub...
+echo [###.......] 33%% Complete
+echo Staging files... Done.
+echo.
 
-echo [3/3] Uploading changes to GitHub...
-git push origin main
+:: Step 2
+git commit -m "Updated scripts and datasets" >nul 2>&1
+cls
+echo Syncing files to GitHub...
+echo [#######....] 66%% Complete
+echo Staging files... Done.
+echo Committing changes... Done.
+echo.
 
+:: Step 3
+git push origin main >nul 2>&1
+cls
+echo Syncing files to GitHub...
+echo [##########] 100%% Complete
+echo Staging files... Done.
+echo Committing changes... Done.
+echo Uploading to GitHub... Done.
+echo.
 echo Sync complete!
 pause
